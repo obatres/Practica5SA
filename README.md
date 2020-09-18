@@ -42,3 +42,5 @@
   *         Agregadas las pruebas unitarias del API
 * 1.2.3
   * CAMBIO: Libreria Pytest agregada
+* 1.3.1
+  * CAMBIO: Agregadas las pruebas unitarias del cliente  
