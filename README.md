@@ -21,6 +21,9 @@
 ## Video de demostracion del funcionamiento
 > https://youtu.be/4b3pe2dHBow
 
+## Video de demostracion de pruebas unitarias al cliente y resultados sonarQube
+> https://youtu.be/n2xVzXbjEqo
+
 ## CI
 > La integracion continua esta a cargo de Travis CI https://travis-ci.com el cual es un gestor de integracion continua en la nube. La configuracion de esta integracion se puede ver en el archivo llamado .travis.yml para mayor informacion. 
 
