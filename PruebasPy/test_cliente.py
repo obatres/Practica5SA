@@ -7,10 +7,13 @@ import requests
 urlSolicitarPedido = "http://localhost:56949/api/buscliente/"
 
 # Realiza un request a la URL
-def Response(url):
+
+
+def response(url):
     return requests.get(url)
 
-#Verifica que el estado del request sea 200, que es equivalente a un request valido
-def test_statusResponse():
-    assert Response(urlSolicitarPedido).status_code == 200
+# Verifica que el estado del request sea 200, que es equivalente a un request valido
 
+
+def test_statusresponse():
+    assert response(urlSolicitarPedido).status_code == 200

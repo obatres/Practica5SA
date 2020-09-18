@@ -23,9 +23,13 @@ data = {
 }
 
 # Realiza un POST al esb para agregar un pedido en el servidor del restaurante
-def responseAdd(header, data, url):
-    return requests.post(url,data=json.dumps(data), headers=header)
+
+
+def response_add(header, data, url):
+    return requests.post(url, data=json.dumps(data), headers=header)
 
 # Verifica el status del request, que sea 201, en este caso es equivalente a la creacion de un nuevo elemento en el servidor
-def test_Add():
-    assert responseAdd(headers,data,urlEnviarPedido).status_code==201
+
+
+def test_add():
+    assert response_add(headers, data, urlEnviarPedido).status_code == 201
