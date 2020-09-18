@@ -10,6 +10,6 @@ urlSolicitarPedido = "http://localhost:56949/api/buscliente/"
 # Id del cliente que solicita pedido
 idCliente = "11"
 # Request que solicita el pedido al servidor del restaurante
-response = requests.get(urlSolicitarPedido+idCliente)
+response = requests.get(urlSolicitarPedido)
 
-print(response.json())
+print(response.status_code)
